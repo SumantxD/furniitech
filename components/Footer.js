@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container">
         <div className=' bg-white border-2 w-screen justify-around flex p-14'>
           <div>
-            <h3 className=' text-2xl mb-2 font-semibold text-slate-700'>Services</h3>
+            <h3 className=' text-2xl mb-2 font-semibold text-slate-700'>Products</h3>
             <ul className=' text-slate-500'>
-              <li><Link href={"./"}>Web Design</Link></li>
-              <li><Link href={"./"}>Development</Link></li>
-              <li><Link href={"./"}>Hosting</Link></li>
+              <li><Link href={"./"}>Sofa</Link></li>
+              <li><Link href={"./"}>Armchair</Link></li>
+              <li><Link href={"./"}>Table</Link></li>
             </ul>
           </div>
           <div>
@@ -23,11 +23,11 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className=' text-2xl mb-2 font-semibold text-slate-700'>Careers</h3>
+            <h3 className=' text-2xl mb-2 font-semibold text-slate-700'>More</h3>
             <ul className=' text-slate-500'>
-              <li><Link href={"./"}>Job Opening</Link></li>
-              <li><Link href={"./"}>Employee Success</Link></li>
-              <li><Link href={"./"}>Benifits</Link></li>
+              <li><Link href={"./"}>Production</Link></li>
+              <li><Link href={"./"}>Factory</Link></li>
+              <li><Link href={"./"}>Designs</Link></li>
             </ul>
           </div>
           <div className=' flex'>
